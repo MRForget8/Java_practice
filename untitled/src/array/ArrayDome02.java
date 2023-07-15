@@ -10,6 +10,8 @@ public class ArrayDome02 {
         //动态初始化
         int[] b = new int[10];
         b[0] = 10;
-        System.out.println(b[0]);
+        for (int i = 0; i < b.length; i++){
+            System.out.println(b[i]);
+        }
     }
 }
